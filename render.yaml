@@ -12,7 +12,7 @@ services:
           name: featuretestapp
           property: connectionString
       - key: RAILS_MASTER_KEY
-          sync: false
+        sync: false
 
 databases:
   - name: featuretestapp
