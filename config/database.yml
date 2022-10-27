@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: featuretestapp_production
   username: featuretestapp
   password: <%= ENV["FEATURETESTAPP_DATABASE_PASSWORD"] %>
